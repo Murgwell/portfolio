@@ -1,21 +1,19 @@
-import './About.css';
-
 function About() {
   return (
-    <section className="about py-8 px-4 max-w-4xl mx-auto">
-      <h2 className="about-title text-3xl font-bold text-gray-800 mb-6">About Me</h2>
-      <p className="about-text text-gray-700 leading-relaxed mb-4">
+    <section className="mx-auto w-full max-w-4xl">
+      <h2 className="mb-6 text-3xl font-bold text-gray-800">About Me</h2>
+      <p className="mb-4 max-w-2xl leading-relaxed text-gray-700">
         I'm a BSIT Student at Cebu Institute of Technology - University with a
         passion for software development.
       </p>
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Skills</h3>
-      <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+      <h3 className="mb-4 text-2xl font-semibold text-gray-800">Skills</h3>
+      <ul className="mb-6 list-disc space-y-2 pl-6 text-gray-700">
         <li>C++</li>
         <li>Java</li>
         <li>JavaScript</li>
         <li>React</li>
       </ul>
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Education</h3>
+      <h3 className="mb-4 text-2xl font-semibold text-gray-800">Education</h3>
       <p className="text-gray-700">
         BSIT - Cebu Institute of Technology - University
       </p>

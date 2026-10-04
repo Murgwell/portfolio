@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -10,9 +9,9 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="flex min-h-screen flex-col">
         <Navbar />
-        <main>
+        <main className="mx-auto w-full max-w-site flex-1 px-4 py-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
